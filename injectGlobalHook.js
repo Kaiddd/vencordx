@@ -16,7 +16,7 @@ async function run() {
 	await waitForLoaded();
 	let script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = "https://raw.githubusercontent.com/Kaiddd/vencordx/main/patch.js";
+	script.src = "https://kaede.jp.net/vencordx/patch.js";
 	document.head.appendChild(script);
 }
 
